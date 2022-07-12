@@ -1,0 +1,125 @@
+*{
+	box-sizing: border-box;
+	padding: 1%;
+	margin: 1%;
+}
+
+body{
+	height: 100vh;
+	display:contents;
+	font-family: 'Amiri', serif;
+	font-family: 'Syncopate', sans-serif;
+
+}
+
+.header{
+	background-position: center;
+	height:auto;
+	vertical-align: middle;
+
+	
+	
+}
+.header::after{
+	clear: both;
+}
+
+.logo{
+	background-image: url('/images/logo_7.png');
+	background-position: right;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	vertical-align:text-top;
+}
+
+.logo_text{
+	text-align: left;
+	margin-bottom:2%;
+	color: rgb(10, 65, 136);
+	padding-top: 1%;
+}
+
+.logo_text_service a{
+	text-decoration: none;
+}
+
+.headerText{
+	text-align: center;
+	color: #f4f4f4;
+	margin-top: 5%;
+}
+
+
+.menu{
+	background-image: url('/images/background.jpg');
+	background-size: 35%;
+	align-items: center;
+	padding: 0;
+}
+menu::after{
+	clear: both;
+}
+.menu col{
+	height: 2vmax;
+	padding: 0;
+	margin: 0;
+}
+
+menu-center{
+	display: flex;
+}
+
+.menu-item{
+	color: #FB4848 !important;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #FB4848 !important;
+}
+s
+.main{
+	background-color: #f1f1f1;
+	height:30vmax;
+	background-image: url('/images/newTires.jpg');
+	background-position: center;
+	background-size: cover;
+
+}
+
+.servicios{
+	display: flex;
+	padding: 0;
+	
+}
+
+#servicios li{
+	display: block;
+}
+.mecanica{
+	display: inline-flex;
+	background-color: #f2f2f2;
+	height: initial;
+	padding: 0;
+	margin: 0;
+}
+.footer{
+	background-image: url('/images/background.jpg');
+	background-size: 35%;
+	margin-bottom: 0;
+	display: flex;
+	color:#FB4848;
+	text-align: center;
+	padding: 0;
+
+}
+
+.footer a{
+	color:#FB4848;
+}
+	
+
+
+.material-icons-outlined{
+	font-size: 6rem;
+}
